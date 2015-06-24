@@ -4,7 +4,7 @@ app.directive('firstDirective', function(){
     scope: {
       info : '='
     },
-    templateUrl : 'js/directives/myDirective.html'
+    templateUrl : 'js/directives/firstDirective.html'
   };
 
 });
