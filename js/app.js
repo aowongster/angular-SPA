@@ -1,10 +1,10 @@
-var app = angular.module('myApp', ['ngRoute']);
+var app = angular.module('myApp', ['ngRoute', 'firstDirective']);
 
 app.config(function($routeProvider){
   $routeProvider
     .when('/', {
       controller: 'MainController',
-      templateUrl: 'views/view1.html'
+      templateUrl: 'views/main.html'
     })
     .when('/:id',{
       controller: 'SecondController',
